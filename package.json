@@ -5,5 +5,12 @@
   "dependencies": {
     "express": "^4.15.2",
     "socket.io": "^2.0.4"
+  },
+  "devDependencies": {
+    "node-sass": "^4.7.2"
+  },
+  "scripts": {
+    "sass:compile": "node-sass --include-path sass style.scss style.css"
   }
+
 }
