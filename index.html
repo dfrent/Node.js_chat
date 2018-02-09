@@ -11,10 +11,11 @@
     <div class="chat-container">
       <section>
         <ul id="messages"></ul>
-        <div class="clear"></div>
-        <form class="form" action="">
-          <input id="m" autocomplete="off" /><button>Send</button>
-        </form>
+        <div id="clear"></div>
+    <div id='formContainer'>
+          <form class="form" action="">
+            <input id="m" autocomplete="off" /><button>Send</button>
+          </form>
         <script src="/socket.io/socket.io.js"></script>
         <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
         <script>
@@ -31,6 +32,7 @@
           });
         </script>
       </section>
+    </div>
     </div>
   </body>
 </html>
