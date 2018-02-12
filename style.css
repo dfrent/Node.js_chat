@@ -34,7 +34,7 @@ form button {
   border: none;
   padding: 10px; }
 
-.clear {
+br {
   clear: both; }
 
 #messages {
@@ -51,7 +51,7 @@ form button {
   background: #0B93F6;
   border-radius: 25px;
   float: right;
-  margin-bottom: 10px;
+  margin-bottom: 40px;
   margin-left: 30px;
   margin-top: 10px; }
   #messages li:nth-child(odd):before {
@@ -83,7 +83,7 @@ form button {
   border-radius: 25px;
   color: black;
   float: left;
-  margin-bottom: 10px;
+  margin-bottom: 40px;
   margin-right: 30px;
   margin-top: 10px; }
   #messages li:nth-child(even):before {
