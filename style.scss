@@ -49,7 +49,7 @@ br {clear: both}
   padding: 5px;
 }
 
-#messages li:nth-child(odd) {
+#messages li:nth-of-type(odd) {
   background: #efefef;
   position:relative;
 	padding:10px 20px;
@@ -86,7 +86,7 @@ br {clear: both}
 		-webkit-transform:translate(-30px, -2px);
 	}
 }
-#messages li:nth-child(even) {
+#messages li:nth-of-type(even) {
   background: black;
   position:relative;
 	padding:10px 20px;

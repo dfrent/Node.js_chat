@@ -42,7 +42,7 @@ br {
   margin: 2px;
   padding: 5px; }
 
-#messages li:nth-child(odd) {
+#messages li:nth-of-type(odd) {
   background: #efefef;
   position: relative;
   padding: 10px 20px;
@@ -54,7 +54,7 @@ br {
   margin-bottom: 40px;
   margin-left: 30px;
   margin-top: 10px; }
-  #messages li:nth-child(odd):before {
+  #messages li:nth-of-type(odd):before {
     content: "";
     position: absolute;
     bottom: -2px;
@@ -63,7 +63,7 @@ br {
     border-right: 20px solid #0B93F6;
     border-bottom-left-radius: 16px 14px;
     -webkit-transform: translate(0, -2px); }
-  #messages li:nth-child(odd):after {
+  #messages li:nth-of-type(odd):after {
     content: "";
     position: absolute;
     z-index: 0;
@@ -75,7 +75,7 @@ br {
     border-bottom-left-radius: 10px;
     -webkit-transform: translate(-30px, -2px); }
 
-#messages li:nth-child(even) {
+#messages li:nth-of-type(even) {
   background: black;
   position: relative;
   padding: 10px 20px;
@@ -86,7 +86,7 @@ br {
   margin-bottom: 40px;
   margin-right: 30px;
   margin-top: 10px; }
-  #messages li:nth-child(even):before {
+  #messages li:nth-of-type(even):before {
     content: "";
     position: absolute;
     bottom: -2px;
@@ -95,7 +95,7 @@ br {
     border-left: 20px solid #E5E5EA;
     border-bottom-right-radius: 16px 14px;
     -webkit-transform: translate(0, -2px); }
-  #messages li:nth-child(even):after {
+  #messages li:nth-of-type(even):after {
     content: "";
     position: absolute;
     z-index: 0;
